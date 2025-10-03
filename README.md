@@ -1,78 +1,74 @@
-<img width="1920" height="1200" alt="hello github" src="https://github.com/user-attachments/assets/daf5d3b5-bc15-46bd-aa15-5ae2d2f1413b" />🖐️ Gesture Controlled On-Screen Keyboard
+# 🎹 Virtual Keyboard Control With Hand Gestures
 
-This project is a virtual on-screen keyboard controlled using hand gestures with OpenCV, MediaPipe, and Pygame.
-Users can type words, numbers, and special characters by performing finger gestures instead of using a physical keyboard.
+A **virtual keyboard** controlled by your **hand gestures** using **OpenCV, MediaPipe, and PyAutoGUI**.  
+This project allows you to press keys on an on-screen keyboard without touching your physical keyboard —  
+just use your **index + thumb pinch gesture** to press keys.
 
-✨ Features
+---
 
-🎯 Hand gesture detection using MediaPipe
+## 🚀 Features
+- 🖐️ Hand gesture detection using **MediaPipe**  
+- ⌨️ Full virtual keyboard with **letters, numbers, and special keys**  
+- 🔊 Sound feedback on key press (click.wav)  
+- 🔠 **Caps Lock / Shift support** for uppercase and special characters  
+- 📝 Text preview box below keyboard (shows typed text like "Hello World")  
+- ↩️ Supports **Enter, Space, Backspace, Tab, ESC**  
+- ⚡ Debouncing to prevent accidental double presses  
 
-⌨️ Full keyboard layout (letters, numbers, symbols, space, backspace, enter, shift, capslock)
+---
 
-🔠 CapsLock & Shift support (for uppercase & symbols like ! @ #)
+## 🛠️ Installation
 
-🎵 Sound feedback when a key is pressed (click.wav)
-
-📝 Typed text displayed live on screen under the keyboard
-
-↩️ Backspace deletes characters, Enter creates a new line
-
-⚡ Real-time typing experience with finger-tap gesture
-
-🛠️ Tech Stack
-
-Python 3.9+
-
-OpenCV → For camera feed & visualization
-
-MediaPipe → Hand landmark detection
-
-Pygame → Sound feedback
-
-NumPy → Distance calculations
-
-📂 Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/gesture-keyboard.git
-cd gesture-keyboard
-
-
-Install dependencies:
-
-pip install opencv-python mediapipe pygame numpy
-
-
-(Optional) Add a click.wav sound file in the same folder for key press feedback.
+### 1. Clone this repo
+```bash
+git clone https://github.com/yourusername/Virtual-Keyboard-Control-With-Hand-Gestures.git
+cd Virtual-Keyboard-Control-With-Hand-Gestures
+2. Install dependencies
+bash
+Copy code
+pip install opencv-python mediapipe pyautogui pygame numpy
+3. Add a click sound (optional)
+Place a file named click.wav in the project folder.
+(You can use any small "click" sound file.)
 
 ▶️ Usage
+Run the Python script:
 
-Run the app:
-
+bash
+Copy code
 python app.py
+Controls:
 
+✋ Place your hand in front of the camera
 
-Bring your index finger close to your thumb (like a click gesture) over a key to press it.
+👉 Use index + thumb pinch gesture to press a key
 
-Press Space, Backspace, Enter, CapsLock, Shift just like a real keyboard.
+📝 Typed text will appear on-screen below the keyboard
 
-The typed text will appear below the keyboard in the same window.
+❌ Press ESC on your physical keyboard to quit
 
 📸 Demo Screenshot
+(Add a screenshot of your keyboard window here)
 
-## 📸 Demo Screenshot
+Example:
 
+markdown
+Copy code
 ![Gesture Keyboard Screenshot](screenshot.png)
+📂 Project Structure
+bash
+Copy code
+Virtual-Keyboard-Control-With-Hand-Gestures/
+│── app.py              # Main script
+│── click.wav           # Key press sound (optional)
+│── screenshot.png      # Demo screenshot
+│── README.md           # Project documentation
+🤝 Contribution
+Pull requests are welcome!
+If you have ideas for improving the keyboard (more gestures, better UI, etc.), feel free to fork and contribute.
 
-🚀 Future Improvements
+📜 License
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute it.
 
-Highlight pressed keys visually
-
-Add predictive text suggestions
-
-Multi-hand support for faster typing
-
-👩‍💻 Author
-
-Developed by Lipa Prusty ✨
+👨‍💻 Developed by Lipa Prusty
