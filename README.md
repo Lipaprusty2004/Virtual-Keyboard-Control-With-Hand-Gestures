@@ -44,10 +44,7 @@ Controls:
 
 ---
 
-📸 Demo Screenshot
-
-
-Example:
+## 📸 Demo Screenshot
 
 ![Gesture Keyboard Screenshot](screenshot.png)
 
