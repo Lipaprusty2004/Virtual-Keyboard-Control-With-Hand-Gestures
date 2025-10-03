@@ -55,6 +55,7 @@ Example:
 
 📂 Project Structure
 Virtual-Keyboard-Control-With-Hand-Gestures/
+
 │── keyboard1.py              # Main script
 
 │── screenshot.png      # Demo screenshot
