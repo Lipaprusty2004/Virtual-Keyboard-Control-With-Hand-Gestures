@@ -19,7 +19,7 @@ just use your **index + thumb pinch gesture** to press keys.
 
 ## 🛠️ Installation
 ### Clone this repo
-git clone https://github.com/Lipaprusty/Virtual-Keyboard-Control-With-Hand-Gestures.git
+git clone https://github.com/Lipaprusty2004/Virtual-Keyboard-Control-With-Hand-Gestures.git
 cd Virtual-Keyboard-Control-With-Hand-Gestures
 
 2. Install dependencies
